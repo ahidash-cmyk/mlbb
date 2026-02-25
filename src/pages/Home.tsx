@@ -1,15 +1,17 @@
 import About from "../sectoins/About";
-import Context from "../sectoins/Context";
 import Hero from "../sectoins/Hero";
-import Services from "../sectoins/Services";
+import Protfolio from "../sectoins/Protfolio";
+import Blog from "../sectoins/Blog";
+import Contact from "../sectoins/Contact";
 
 export default function Home() {    
     return (
-      <>
+        <>
           <Hero />
-        <Services />
-        <Context />
-        <About />
+          <About />
+          <Blog />
+          <Protfolio/>
+          <Contact />
         </>
     );
 }

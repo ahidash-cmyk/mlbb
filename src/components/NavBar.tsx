@@ -12,11 +12,11 @@ const Navbar = () => {
         </div>
         {/*Desktop menu*/}
         <ul className="hidden lg:flex space-x-8 text-sm font-medium">
-          <li className="hover:text-link cursor-pointer">Home</li>
+          <li className="hover:text-link cursor-pointer"><a href="#Hero">Home</a></li>
           <li className="hover:text-link cursor-pointer"><a href="#about">About</a></li>
           <li className="hover:text-link cursor-pointer"><a href="#services">Services</a></li>
-          <li className="hover:text-link cursor-pointer">Portfolio</li>
-          <li className="hover:text-link cursor-pointer">Contact</li>
+          <li className="hover:text-link cursor-pointer"><a href="#portfolio">Portfolio</a></li>
+          <li className="hover:text-link cursor-pointer"><a href="#contact">Contact</a></li>
         </ul>
         {/*Mobile button*/}
 
