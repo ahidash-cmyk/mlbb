@@ -1,4 +1,4 @@
-import aboutpg from '../assets/aboutpg.jpg';
+
 const About = () => {
   return (
     <section
@@ -10,7 +10,7 @@ const About = () => {
         {/* Image */}
         <div className="flex justify-center">
           <img
-            src={aboutpg}
+            src='/aboutpg.jpg'
             alt="About me"
             className="w-72 md:w-96 rounded-2xl shadow-lg"
           />

@@ -21,5 +21,3 @@ const Footer = () => {
   );
 };
 export default Footer;
-/*        // @ts-expect-error vite types mismatch (multiple instances or tailwind plugin)
-*/

@@ -1,6 +1,6 @@
 import { useState } from "react";
         
-import logo from "../assets/logo.png";
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="w-full mx-auto px-6 py-4 flex items-center justify-between">
         {/*logo*/}
         <div>   
-          <img src={logo} alt="logo" className="w-auto h-12" />
+          <img src="/logo.png" alt="logo" className="w-auto h-12" />
         </div>
         {/*Desktop menu*/}
         <ul className="hidden lg:flex space-x-8 text-sm font-medium">

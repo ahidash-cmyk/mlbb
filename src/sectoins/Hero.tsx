@@ -1,4 +1,3 @@
-import hero from "../assets/Hero.png";
 const Hero = () => {
   return (
     <section
@@ -7,7 +6,7 @@ const Hero = () => {
     >
       {/* Background image */}
       <img
-        src={hero}
+        src="/hero.png"
         alt="Hero Background"
         className="absolute inset-0 w-full h-full object-cover"
       />
