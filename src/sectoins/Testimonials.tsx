@@ -31,7 +31,7 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <section className="bg-[#0b0f19] text-white py-20 px-6">
+    <section className="bg-[#0f172a] text-white py-20 px-6">
       <div className="max-w-4xl mx-auto text-center">
         <h3 className="text-yellow-400 text-sm tracking-widest uppercase mb-2">
           Testimonials
@@ -55,6 +55,7 @@ const Testimonials = () => {
           </span>
         </div>
       </div>
+      <div className="w-auto h-[2px] bg-yellow-400/80 my-8"></div>
     </section>
   );
 };

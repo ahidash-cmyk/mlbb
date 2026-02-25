@@ -63,6 +63,7 @@ const Services = () => {
         </div>
 
       </div>
+             <div className="w-auto h-[2px] bg-yellow-400/80 my-8"></div>
     </section>
   );
 };

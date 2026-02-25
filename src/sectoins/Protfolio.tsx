@@ -8,17 +8,17 @@ const projects: Project[] = [
   {
     id: 1,
     title: "Admin Dashboard",
-    image: "/public/Pimage1.png",
+    image: "/Pimage1.png",
   },
   {
     id: 2,
     title: "Portfolio Website",
-    image: "/public/Pimage2.jpg",
+    image: "/Pimage2.jpg",
   },
   {
     id: 3,
     title: "E-commerce UI",
-    image: "/public/Pimage3.jpg",
+    image: "/Pimage3.jpg",
   },
 ];
 
@@ -56,6 +56,7 @@ const Portfolio = () => {
           ))}
         </div>
       </div>
+             <div className="w-auto h-[2px] bg-yellow-400/80 my-8"></div>
     </section>
   );
 };

@@ -12,7 +12,7 @@ const posts: BlogPost[] = [
     title: "How to Build a Modern Portfolio with React",
     excerpt:
       "Learn how to structure and design a modern portfolio website using React and Tailwind CSS.",
-    image: "/public/Bimage1.jpg",
+    image: "/Bimage1.jpg",
     date: "Jan 12, 2025",
   },
   {
@@ -20,7 +20,7 @@ const posts: BlogPost[] = [
     title: "Responsive Design Tips for Frontend Developers",
     excerpt:
       "Best practices and techniques to create fully responsive layouts that look great on all devices.",
-    image: "/public/Bimage2.jpg",
+    image: "/Bimage2.jpg",
     date: "Feb 3, 2025",
   },
   {
@@ -28,7 +28,7 @@ const posts: BlogPost[] = [
     title: "Why Tailwind CSS Boosts Productivity",
     excerpt:
       "Discover how Tailwind CSS helps developers build fast, consistent, and scalable UI components.",
-    image: "/public/Bimage3.png",
+    image: "/Bimage3.png",
     date: "Mar 8, 2025",
   },
 ];
@@ -37,7 +37,7 @@ const Blog = () => {
   return (
     <section
       id="blog"
-      className="bg-[#020617] text-white py-20 px-6"
+      className="bg-[#0f172a] text-white py-20 px-6"
     >
       <div className="max-w-6xl mx-auto">
 
@@ -89,6 +89,7 @@ const Blog = () => {
           ))}
         </div>
       </div>
+             <div className="w-auto h-[2px] bg-yellow-400/80 my-8"></div>
     </section>
   );
 };

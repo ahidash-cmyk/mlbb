@@ -3,7 +3,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="bg-[#0b0f19] text-white py-20 px-6"
+      className="bg-[#0f172a] text-white py-20 px-6"
     >
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
@@ -44,7 +44,9 @@ const About = () => {
           </button>
         </div>
       </div>
+        <div className="w-auto h-[2px] bg-yellow-400/80 my-8"></div>
     </section>
+    
   );
 };
 

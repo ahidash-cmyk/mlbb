@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="bg-[#0b0f19] text-white py-20 px-6"
+      className="bg-[#0f172a] text-white py-20 px-6"
     >
       <div className="max-w-3xl mx-auto">
 
@@ -53,6 +53,7 @@ const Contact = () => {
 
         </form>
       </div>
+             <div className="w-auto h-[2px] bg-yellow-400/80 my-8"></div>
     </section>
   );
 };
